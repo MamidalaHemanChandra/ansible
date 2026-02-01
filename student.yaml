@@ -1,0 +1,23 @@
+- name: Heman
+  dob: 01-01-2026
+  age: 25
+  addresses:
+  - doorNo: 1-27
+    Street: Gopalpur
+    Mandal: Kamalapur
+    District: Hanumkonda
+    Pin: 505102
+    type: per
+
+  - doorNo: 1-37/1
+    Street: Gopalpur
+    Mandal: Kamalapur
+    District: Hanumkonda
+    Pin: 505102
+    type: per
+
+  skills:
+  - DevOps
+  - Linux
+  - Shell
+  - Ansible
