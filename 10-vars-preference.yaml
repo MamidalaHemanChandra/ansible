@@ -1,10 +1,10 @@
 - name: variables preference
   hosts: local
   connection: local
-  vars:
-    Name: from play var
-  vars_files:
-  - course.yaml
+  # vars:
+  #   Name: from play var
+  # vars_files:
+  # - course.yaml
   # vars_prompt:
   # - name: Name
   #   prompt: What is your Name?
