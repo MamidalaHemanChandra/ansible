@@ -4,4 +4,4 @@
   tasks:
   - name: gethering facts
     ansible.builtin.debug:
-      msg: "Facts are: {{ ansible_facts }}"
+      msg: "{{ ansible_facts }}"
