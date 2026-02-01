@@ -65,10 +65,10 @@
     ansible.builtin.debug:
       msg: "{{ output_grep }}"
   
-  # - name: redirection
-  #   ansible.builtin.command: ls -ltr > /tmp/output.txt
-  #   register: output_redirect
-  #   ignore_error: true
+  - name: redirection
+    ansible.builtin.command: ls -ltr > /tmp/output.txt
+    register: output_redirect
+    ignore_error: true
 
   - name: output redirect
     ansible.builtin.debug:
