@@ -4,7 +4,7 @@
   vars:
     name: "Heman CHandra"
     email: "HEMANCHANDRA701@GMAIL.COM"
-    IP: 
+    IP: 172.31.26.36
     technologies: DevOps, Linux, Shell, Ansible
     tags:
       Application: payment
