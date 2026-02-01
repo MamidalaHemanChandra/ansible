@@ -1,0 +1,7 @@
+- name: task variables
+  hosts: local
+  connection: local
+  tasks:
+  - name: course info 
+    ansible.builtin.debug:
+      msg: "Course is: {{ Course }}, Duration is: {{ Duration }}, Trainer is: {{ TRAINER }}" 
